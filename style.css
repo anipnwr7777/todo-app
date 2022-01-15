@@ -25,7 +25,7 @@ h1{
 
 .input{
     height: 2rem;
-    width: 25rem;
+    width: 70%;
     color: black;
 }
 
@@ -33,4 +33,61 @@ h1{
     /* opacity: 0.5; */
     /* font-size: 1.1rem; */
     color: gray;
+}
+
+.getting-finished{
+    opacity: 0.6;
+    text-decoration: line-through;
+    cursor: pointer;
+    background-color: rgb(182, 135, 143);
+}
+
+.revive-again{
+    opacity: 0.6;
+    text-decoration: bold;
+    font-size: 1.08rem;
+    background-color: rgb(126, 218, 126);
+    cursor: pointer;
+}
+
+.finished{
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.submit-btn{
+    height: 2rem;
+    padding: 2px;
+}
+
+li{
+    list-style: none;
+}
+
+@media (max-width: 600px){
+    .container{
+        width: 95%;
+    } 
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .container{
+        width: 80%;
+    } 
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    .container{
+        width: 70%;
+    } 
+}
+
+ul{
+    /* width: 50%; */
+    text-align: left;
+    margin: 1rem 3rem;
+}
+
+li{
+    padding: 0.2rem 0;
 }
